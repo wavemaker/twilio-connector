@@ -25,7 +25,7 @@ public class TwilioConnectorTest {
 
     @Test
     public void sendSMS() {
-        twilioConnector.sendSMS("+919701831834", "hello this message is from twilio connector");
+        twilioConnector.sendSMS("+91XXXXXXXXXX", "hello this message is from twilio connector");
     }
 
     @Test
