@@ -4,18 +4,18 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
-public class PropertyService {
+public class ConfigService {
 
     @Value("${twilio.account.SID}")
     private String twilioSID;
 
-    @Value("${twilio.auth.token}")
+    @Value("${twilio.account.authtoken}")
     private String twilioAuthToken;
 
-    @Value("${twilio.phone.number}")
+    @Value("${twilio.account.phoneNumber}")
     private String phoneNumber;
 
-    @Value("${twilio.verify.api.key}")
+    @Value("${twilio.verify.services.serviceId}")
     private String verifyAPIKey;
 
     public String getTwilioSID() {

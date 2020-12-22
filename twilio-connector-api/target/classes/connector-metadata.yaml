@@ -1,4 +1,0 @@
-version: "1.0"
-name: "twilio-connector"
-description: "A simple connector twilio-connector that can be used in WaveMaker application"
-springConfigurationClass: "com.wavemaker.connector.twilio.configuration.TwilioConnectorConfiguration"
