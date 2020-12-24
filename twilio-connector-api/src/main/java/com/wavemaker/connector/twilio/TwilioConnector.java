@@ -54,7 +54,7 @@ public interface TwilioConnector {
                                                TwilioMessageListener twilioMessageListener);
 
     /***
-     *
+     * Send OTP to the given phoneNumber or email based on selected channel(SMS, Voice or Email)
      * @param toPhoneNumberOrEmail: The phone number or email to verify
      * @param channel: The verification method to use
      * @return VerificationResult
@@ -62,7 +62,7 @@ public interface TwilioConnector {
     public VerificationResult sendOTP(String toPhoneNumberOrEmail, Channel channel);
 
     /***
-     *
+     * Validates the OTP sent to the given PhoneNumber or Email
      * @param toPhoneNumberOrEmail: The phone number or email to verify
      * @param otpCode: The verification string
      * @return VerificationResult
