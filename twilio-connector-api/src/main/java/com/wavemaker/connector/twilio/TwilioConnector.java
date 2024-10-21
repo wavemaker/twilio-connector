@@ -3,8 +3,8 @@ package com.wavemaker.connector.twilio;
 import java.net.URI;
 import java.util.List;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import com.wavemaker.connector.twilio.constant.Channel;
 import com.wavemaker.connector.twilio.model.VerificationResult;
